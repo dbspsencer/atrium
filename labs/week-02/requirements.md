@@ -1,7 +1,7 @@
 # Week 2 security requirements
 
-Your name:
-Date:
+Your name: 20099070
+Date: 01/10/2026
 
 Fill this in as you work, rather than at the end. Where you are unsure, write
 that you are unsure and say why. A sentence you can support is worth more than a
@@ -17,6 +17,7 @@ uses it.
 **Where the assistant's explanation did not match the application.** Anything you
 checked and found different, however small. Write "nothing found" if that is the
 honest answer.
+Answer \*\* \*\*
 
 ## 2. What is worth protecting
 
@@ -25,11 +26,11 @@ changed or unavailable. Write the cost so that somebody outside the team could
 understand it.
 
 | Asset | What it costs if this goes wrong |
-|---|---|
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| ----- | -------------------------------- |
+|       |                                  |
+|       |                                  |
+|       |                                  |
+|       |                                  |
 
 ## 3. The requirements
 
