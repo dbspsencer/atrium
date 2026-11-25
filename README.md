@@ -77,6 +77,31 @@ This checks that Atrium behaves the way it should: signing in works, the
 directory lists people, the profile page loads. Run it after you change
 something, to see whether you broke anything.
 
+## Checking the directory search
+
+```
+npm run check
+```
+
+This tries four searches in the directory and says, for each one, the result
+a working directory should give and the result yours gave: GREEN when they
+match, RED when they do not. It uses its own fresh copy of the starting data,
+so Atrium does not need to be running and your data is not touched.
+
+```
+npm run check:versions
+```
+
+This runs the same searches against five different versions of the search
+code, to compare them. It does not change your own Atrium.
+
+Two more checks work the same way:
+
+| Command | What it checks |
+|---|---|
+| `npm run check:access` | Who may read and change each profile, and who may list every account. |
+| `npm run check:session` | Where the session key comes from, the session cookie's settings, and what a failed request shows. |
+
 ## If something goes wrong
 
 **`npm ci` fails.** Check your Node version is 24 or newer. If you are on a
